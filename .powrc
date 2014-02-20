@@ -1,0 +1,11 @@
+# setup rvm
+if [ -f "$rvm_path/scripts/rvm" ] && [ -f ".ruby-version" ]; then
+  source "$rvm_path/scripts/rvm"
+  rvm use `cat .ruby-version`
+fi
+
+# config variables
+export AUTH0_CALLBACK_URL="http://auth0-rails.dev/callback"
+export AUTH0_CLIENT_ID="nUBJjeJElAPmpwBjhWgWX5aJYovpK2n9"
+export AUTH0_CLIENT_SECRET="wsxY2eUG78qKGTyUpAOUbwCDCwc6mZSQzTmNS-k3qf56uX5nAjQyjRe_iD7oq8b7"
+export AUTH0_DOMAIN="app17922501.auth0.com"

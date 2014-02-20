@@ -13,3 +13,13 @@ Run with:
 ~~~
 $ foreman start --port 5050
 ~~~
+
+
+## Using with pow.cx:
+
+~~~
+$ cd ~/.pow
+$ ln -s ~/path/to/repository auth0-rails
+~~~
+
+Then navigate to http://auth0-rails.dev
