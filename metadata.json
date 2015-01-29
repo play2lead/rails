@@ -1,0 +1,9 @@
+{
+  "name": "Basic Auth0 Rails App",
+  "type": "sample",
+  "tags": [
+    "web",
+    "ruby",
+    "rails"
+  ]
+}
